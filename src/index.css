@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+:root{
+    --cinzinha:#D1D1E9;
+    --cinzao:#64648A;
+    --gelo:#FDFCEA;
+    --verdin:#B5C57A;
+    --verdin-escurin:#7c8753;
+    --amarelinho:#FFE5B2;
+    --abobora:#f3793A;
+    --abobora-escuro:#f05204;
+}
