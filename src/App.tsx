@@ -6,12 +6,14 @@ import Home from './pages/home/Home'
 import FormCategorias from './components/categorias/formcategorias/FormCategorias'
 import ListarCategorias from './components/categorias/listarcategorias/ListarCategorias'
 import DeletarCategorias from './components/categorias/deletecategorias/DeletarCategorias'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
   
   return (
     <>
 		<div className='bg-(--gelo)'>
+			<ToastContainer />
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
