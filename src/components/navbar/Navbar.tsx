@@ -20,19 +20,20 @@ function Navbar() {
             />
 
             <button className='rounded-lg py-2 px-3 cursor-pointer
-                bg-(--verdin-escurin) hover:bg-(--verdin-escurin) transition delay-2'>
+                bg-(--verdin-escurin) hover:bg-(--verdin) transition delay-2'>
                 <MagnifyingGlass size={24} className="text-white" />
             </button>
             </div>
 
             <div className="flex items-center text-lg gap-3.5 text-(--verdin-escurin)">
-                <Link to='' className='hover:underline'>Categorias</Link>
-                <Link to='' className='hover:underline'>Cadastrar</Link>
+                <Link to='/' className='hover:underline'>Home</Link>
+                <Link to='/categorias' className='hover:underline'>Categorias</Link>
+                <Link to='/cadastrarcategorias' className='hover:underline'>Cadastrar</Link>
             </div>
 
             <div className="flex items-center gap-4 text-(--verdin-escurin)">
-            <UserIcon size={36} />
-            <ShoppingCartIcon size={36}  />
+            <UserIcon size={36} className="hover:text-(--verdin)" />
+            <ShoppingCartIcon size={36} className="hover:text-(--verdin)" />
             </div>
            
         </div>
