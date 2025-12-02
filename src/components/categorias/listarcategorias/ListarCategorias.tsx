@@ -27,7 +27,7 @@ function ListarCategorias() {
   return (
     <>
         {isLoading && (
-				<div className="flex justify-center w-full min-h-[70vh] h-full py-8">
+				<div className="flex justify-center w-full h-full py-8">
 					<SyncLoader color="#7c8753" size={32} />
 				</div>
 			)}

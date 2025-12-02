@@ -17,7 +17,7 @@ function Home() {
                 </div>
                 {/* coluna 2 */}
                 <div className="p-30">
-                    <img src="public/img.svg" alt="farmaceutica em um balcão de atendimento" />
+                    <img src="https://ik.imagekit.io/5vd9mfrfv/desafio%20palindromo%20/img.svg" alt="farmaceutica em um balcão de atendimento" />
                 </div>
                 
             </div>
